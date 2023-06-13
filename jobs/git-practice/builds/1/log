@@ -1,0 +1,26 @@
+Started by user [8mha:////4AWwtPXq4HtA44PKkhVfrhHS2U+gMZOwkTNNhkyLAXiRAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/dLi1CL94tKsxLzixFxzcwCKLyyCxQAAAA==[0msujan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/git-practice
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sujansam77/git_practice.git
+ > git init /var/lib/jenkins/workspace/git-practice # timeout=10
+Fetching upstream changes from https://github.com/sujansam77/git_practice.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/sujansam77/git_practice.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sujansam77/git_practice.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 01bb9903d54d3113fcf2fb305d32d75ebad548fd (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 01bb9903d54d3113fcf2fb305d32d75ebad548fd # timeout=10
+Commit message: "file"
+First time build. Skipping changelog.
+[git-practice] $ /bin/sh -xe /tmp/jenkins13581745448514384279.sh
++ cd /var/lib/jenkins/git-practice
+/tmp/jenkins13581745448514384279.sh: line 2: cd: /var/lib/jenkins/git-practice: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
